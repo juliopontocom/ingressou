@@ -2,10 +2,10 @@
 .titulo {
     font-family: 'League Spartan', sans-serif;
     color: #4838CB;
-    font-size: 3rem; /* Equivalente a 48px em unidades rem */
+    font-size: 2rem; /* Ajustar tamanho responsivo */
     cursor: pointer;
     margin: 0;
-    max-width: 25%; /* Max width de 1/4 da página */
-    min-width: 120px; /* Ajustar min width para telas menores */
+    max-width: 20%; /* Max width ajustável */
+    min-width: 80px; /* Ajustar min width para telas menores */
   }
   

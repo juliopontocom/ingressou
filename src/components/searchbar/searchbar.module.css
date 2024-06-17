@@ -1,13 +1,13 @@
 /* src/components/searchbar/searchbar.module.css */
 .searchbar {
-  width: 40vw; /* Ajustável para resoluções diferentes */
-  max-width: 600px; /* Máximo de 600px */
-  min-width: 200px; /* Min width para telas pequenas */
-  height: 3.125rem; /* Equivalente a 50px */
-  border: 3px solid #4838CB;
+  width: 30vw; /* Ajustável para resoluções diferentes */
+  max-width: 500px; /* Máximo ajustável */
+  min-width: 100px; /* Min width para telas pequenas */
+  height: 2.5rem; /* Equivalente a 40px */
+  border: 2px solid #4838CB; /* Ajustar a borda */
   border-radius: 15px;
   padding: 0 1rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #AFBBC6;
   outline: none;
 }

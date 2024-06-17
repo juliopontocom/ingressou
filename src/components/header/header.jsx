@@ -4,6 +4,7 @@ import styles from './header.module.css';
 import Titulo from '../titulo/titulo';
 import SearchBar from '../searchbar/searchbar';
 import CitySelector from '../cityselector/cityselector';
+import Menu from '../menu/menu';
 
 const Header = () => {
   return (
@@ -11,7 +12,7 @@ const Header = () => {
       <Titulo />
       <SearchBar />
       <CitySelector />
-      <div className={styles.item}>Item 4</div>
+      <Menu />
     </header>
   );
 };

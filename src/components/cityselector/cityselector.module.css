@@ -4,9 +4,9 @@
     font-size: 1.25rem;
     color: #4838CB;
     cursor: pointer;
-    width: 20vw; /* Ajustável para resoluções diferentes */
-    max-width: 400px; /* Máximo de 400px */
-    min-width: 150px; /* Min width para telas pequenas */
+    width: 15vw; /* Ajustável para resoluções diferentes */
+    max-width: 250px; /* Máximo ajustável */
+    min-width: 80px; /* Min width para telas pequenas */
   }
   
   .selectedCity {

@@ -1,0 +1,30 @@
+/* src/components/menu/menu.module.css */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4538C3;
+    border-radius: 15px;
+    height: 2.5rem; /* Altura igual à da SearchBar */
+    width: 20vw; /* Comprimento ajustável */
+    max-width: 333px; /* Máximo ajustável */
+    min-width: 80px; /* Min width para telas pequenas */
+  }
+  
+  .menuItem {
+    color: white;
+    cursor: pointer;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menuItem:hover {
+    text-decoration: underline;
+  }
+  
+  .icon {
+    color: white; /* Cor do ícone */
+    font-size: 1.5rem; /* Tamanho do ícone */
+  }
+  
