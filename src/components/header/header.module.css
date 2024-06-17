@@ -1,0 +1,40 @@
+/* src/components/header/header.module.css */
+.header {
+    display: flex;
+    flex-wrap: wrap; /* Permitir quebra de linha em telas menores */
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh; /* Usar unidade relativa para a altura */
+    width: 100%;
+    padding: 0 2vw; /* Usar unidade relativa para o padding */
+    box-sizing: border-box;
+  }
+  
+  .item {
+    flex: 1;
+    text-align: center;
+    font-size: 1.5vw; /* Usar unidade relativa para o tamanho da fonte */
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      height: auto;
+      align-items: flex-start; /* Alinhar itens ao início */
+    }
+  
+    .header > :nth-child(1),
+    .header > :nth-child(3) {
+      width: 100%; /* Título e CitySelector em uma linha */
+    }
+  
+    .header > :nth-child(2) {
+      width: 100%; /* SearchBar em outra linha */
+      margin-top: 10px;
+    }
+  
+    .item:nth-child(4) {
+      display: none; /* Esconder o item 4 em telas menores */
+    }
+  }
+  

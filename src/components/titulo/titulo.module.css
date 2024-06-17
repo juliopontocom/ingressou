@@ -1,0 +1,11 @@
+/* src/components/titulo/titulo.module.css */
+.titulo {
+    font-family: 'League Spartan', sans-serif;
+    color: #4838CB;
+    font-size: 3rem; /* Equivalente a 48px em unidades rem */
+    cursor: pointer;
+    margin: 0;
+    max-width: 25%; /* Max width de 1/4 da página */
+    min-width: 120px; /* Ajustar min width para telas menores */
+  }
+  

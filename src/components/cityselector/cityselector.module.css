@@ -1,0 +1,50 @@
+/* src/components/cityselector/cityselector.module.css */
+.citySelector {
+    position: relative;
+    font-size: 1.25rem;
+    color: #4838CB;
+    cursor: pointer;
+    width: 20vw; /* Ajustável para resoluções diferentes */
+    max-width: 400px; /* Máximo de 400px */
+    min-width: 150px; /* Min width para telas pequenas */
+  }
+  
+  .selectedCity {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centralizar nome da cidade e seta */
+  }
+  
+  .arrow {
+    margin-left: 4px; /* Espaço pequeno entre o nome da cidade e a seta */
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow.open {
+    transform: rotate(90deg); /* Girar 90 graus no sentido anti-horário */
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #4838CB;
+    border-radius: 5px;
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 100%; /* Ajustar largura do dropdown */
+  }
+  
+  .dropdown li {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .dropdown li:hover {
+    background-color: #f0f0f0;
+  }
+  
