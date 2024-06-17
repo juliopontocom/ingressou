@@ -1,28 +1,10 @@
 /* src/pages/ingressou/ingressou.module.css */
 .container {
-    padding: 20px;
-    text-align: center;
-    background: linear-gradient(to bottom, #F7F9FC, #AFBBC6);
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
-  }
-  
-  h1 {
-    color: #333;
-    font-weight: 700;
-  }
-  
-  p {
-    color: #666;
-    font-weight: 400;
-  }
-
-  .header{
-    border: 1px solid red;
-    height: 100px;
-    width: 100%;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #F7F9FC, #AFBBC6);
   }
   

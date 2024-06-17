@@ -25,6 +25,25 @@
   
   .icon {
     color: white; /* Cor do ícone */
-    font-size: 1.5rem; /* Tamanho do ícone */
+    font-size: 1.25rem; /* Reduzir tamanho do ícone */
+  }
+  
+  .userInfo {
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem; /* Adicionar padding ao item 4 */
+  }
+  
+  .userName {
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    margin-right: 8px;
+    font-size: 1rem; /* Reduzir tamanho do texto */
+  }
+  
+  .userPhoto {
+    width: 1.5rem; /* Reduzir tamanho da foto */
+    height: 1.5rem;
+    border-radius: 50%;
   }
   
