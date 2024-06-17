@@ -1,0 +1,35 @@
+/* src/components/card/card.module.css */
+.card {
+    width: 80%; /* Tornar responsivo */
+    max-width: 400px; /* Máximo de largura do card */
+    height: auto; /* Altura automática para manter proporção */
+    aspect-ratio: 400 / 215; /* Manter proporção original */
+    border-radius: 40px; /* Bordas arredondadas */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 20px 0; /* Espaçamento entre cards */
+  }
+  
+  .info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0; /* Padding na altura */
+    display: flex;
+    justify-content: space-around; /* Centralizar e ocupar bem o espaço disponível */
+    align-items: center;
+    background: rgba(255, 255, 255, 0.4); /* Cor de fundo com 40% de opacidade */
+    backdrop-filter: blur(20px); /* Efeito de desfoque reduzido pela metade */
+    border-bottom-left-radius: 40px; /* Bordas arredondadas */
+    border-bottom-right-radius: 40px; /* Bordas arredondadas */
+  }
+  
+  .date, .place {
+    font-family: 'League Spartan', sans-serif;
+    color: #FFF; /* Cor do texto branca */
+    font-weight: 500; /* Semi-bold */
+    font-size: 1.25rem; /* Tamanho da fonte em rem */
+    padding: 0.5rem 1rem; /* Ajuste do padding para espaçamento interno */
+  }
+  

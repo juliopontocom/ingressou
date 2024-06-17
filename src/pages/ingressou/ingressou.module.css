@@ -1,10 +1,25 @@
 /* src/pages/ingressou/ingressou.module.css */
-.container {
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to bottom, #F7F9FC, #AFBBC6);
+  }
+  
+  .content {
+    flex: 1;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    min-height: 100vh;
+    padding: 20px 0;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
     background: linear-gradient(to bottom, #F7F9FC, #AFBBC6);
   }
   
