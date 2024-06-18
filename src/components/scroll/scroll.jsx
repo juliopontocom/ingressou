@@ -7,12 +7,14 @@ const Scroll = () => {
   return (
     <div className={styles.content}>
       <Carousel />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <div className={styles.cardContainer}>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 };

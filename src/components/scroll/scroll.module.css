@@ -1,4 +1,3 @@
-/* src/components/scroll/scroll.module.css */
 .content {
     flex: 1;
     overflow-y: auto;
@@ -6,5 +5,12 @@
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
+    min-height: 90vh;
   }
   
+  .cardContainer {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
