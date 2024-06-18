@@ -1,19 +1,13 @@
 import React from 'react';
 import Header from '../../components/header/header';
-import Carousel from '../../components/carousel/carousel';
-import Card from '../../components/card/card';
+import Scroll from '../../components/scroll/scroll';
 import styles from './ingressou.module.css';
 
 const Ingressou = () => {
   return (
     <div className={styles.page}>
       <Header />
-      <div className={styles.content}>
-        <Carousel />
-        <Card />
-        <Card />
-        <Card />
-      </div>
+      <Scroll />
     </div>
   );
 };

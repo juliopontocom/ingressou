@@ -54,30 +54,3 @@
     background-color: rgba(0, 0, 0, 0.2);
   }
   
-  .dotContainer {
-    position: absolute;
-    bottom: 0.5rem;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 0.25rem;
-  }
-  
-  .dotBtn {
-    all: unset;
-    display: block;
-    cursor: pointer;
-    width: 1rem;
-    height: 1rem;
-    transition: transform 100ms ease-in-out;
-  }
-  
-  .dotBtn:hover,
-  .dotBtn:focus-visible {
-    transform: scale(1.2);
-  }
-  
-  .dotBtn:focus-visible,
-  .btn:focus-visible {
-    outline: auto;
-  }

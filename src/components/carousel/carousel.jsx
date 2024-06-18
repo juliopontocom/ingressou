@@ -58,22 +58,6 @@ const Carousel = () => {
       >
         <FaGreaterThan aria-hidden style={{ color: '#4538C3' }} />
       </button>
-      <div className={styles.dotContainer}>
-        {banners.map((_, index) => (
-          <button
-            key={index}
-            className={styles.dotBtn}
-            aria-label={`View Image ${index + 1}`}
-            onClick={() => setImageIndex(index)}
-          >
-            {index === imageIndex ? (
-              <FaDotCircle aria-hidden style={{ color: '#4538C3' }} />
-            ) : (
-              <FaCircle aria-hidden style={{ color: '#4538C3' }} />
-            )}
-          </button>
-        ))}
-      </div>
     </section>
   );
 };

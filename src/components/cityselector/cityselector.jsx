@@ -5,9 +5,9 @@ import styles from './cityselector.module.css';
 
 const CitySelector = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedCity, setSelectedCity] = useState('Porto Alegre');
+  const [selectedCity, setSelectedCity] = useState('Rio Grande do Sul');
 
-  const cities = ['Porto Alegre', 'Santa Catarina', 'São Paulo', 'Rio de Janeiro'];
+  const cities = ['Rio Grande do Sul', 'Santa Catarina', 'São Paulo', 'Rio de Janeiro'];
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
